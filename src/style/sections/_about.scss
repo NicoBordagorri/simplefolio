@@ -17,7 +17,7 @@
     -webkit-clip-path: none;
     clip-path: none;
   }
-
+  
   .about-wrapper {
     @include respond(phone) {
       padding-bottom: 5rem;
@@ -28,7 +28,6 @@
       height: 100%;
       align-items: center;
       justify-content: center;
-
       @include respond(tab-land) {
         height: 100%;
       }
